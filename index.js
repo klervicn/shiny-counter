@@ -4,7 +4,7 @@ const fs = require('fs');
 const countPath = path.join(__dirname, 'data', 'count.txt');
 let count = 0;
 try { count = parseInt(fs.readFileSync(countPath, { encoding : 'utf8' }));}
-catch {
+catch(error) {
   console.log("File will be created automatically in data folder")
   fs.writeFileSync(countPath, count.toString(), { encoding : 'utf8' })
 }
