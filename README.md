@@ -6,8 +6,9 @@ You just need to have node installed : https://nodejs.org/en/download/
 
 ## Setup
 
-1. Clone this repository
-2. Open a terminal and go under shiny-counter directory
-3. Type ```node index.js```
-4. Open your stream broadcaster and link the text file **/data/count.txt** as a text file source
-5. Happy shiny hunting !
+1. Open a terminal, go under any repository you want to place your count file 
+2. ``` git clone https://github.com/klervicn/shiny-counter.git ```
+3. ``` cd shiny-counter```
+4.```node index.js```
+5. Open your stream broadcaster and link the text file **/data/count.txt** as a text file source
+6. Happy shiny hunting !
